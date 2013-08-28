@@ -164,11 +164,11 @@ namespace CodePlex.SharePointInstaller
             //
             // Admin Service Check
             //
-            AdminServiceCheck adminServiceCheck = new AdminServiceCheck();
-            adminServiceCheck.QuestionText = CommonUIStrings.adminServiceCheckQuestionText;
-            adminServiceCheck.OkText = CommonUIStrings.adminServiceCheckOkText;
-            adminServiceCheck.ErrorText = CommonUIStrings.adminServiceCheckErrorText;
-            AddCheck(adminServiceCheck);
+            //AdminServiceCheck adminServiceCheck = new AdminServiceCheck();
+            //adminServiceCheck.QuestionText = CommonUIStrings.adminServiceCheckQuestionText;
+            //adminServiceCheck.OkText = CommonUIStrings.adminServiceCheckOkText;
+            //adminServiceCheck.ErrorText = CommonUIStrings.adminServiceCheckErrorText;
+            //AddCheck(adminServiceCheck);
 
             //
             // Timer Service Check

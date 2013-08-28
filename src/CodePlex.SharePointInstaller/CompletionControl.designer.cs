@@ -28,43 +28,32 @@ namespace CodePlex.SharePointInstaller
     /// </summary>
     private void InitializeComponent()
     {
-      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CompletionControl));
-      this.detailsTextBox = new System.Windows.Forms.TextBox();
-      this.detailsLabel = new System.Windows.Forms.Label();
-      this.SuspendLayout();
-      // 
-      // detailsTextBox
-      // 
-      this.detailsTextBox.AccessibleDescription = null;
-      this.detailsTextBox.AccessibleName = null;
-      resources.ApplyResources(this.detailsTextBox, "detailsTextBox");
-      this.detailsTextBox.BackColor = System.Drawing.Color.White;
-      this.detailsTextBox.BackgroundImage = null;
-      this.detailsTextBox.Font = null;
-      this.detailsTextBox.Name = "detailsTextBox";
-      this.detailsTextBox.ReadOnly = true;
-      // 
-      // detailsLabel
-      // 
-      this.detailsLabel.AccessibleDescription = null;
-      this.detailsLabel.AccessibleName = null;
-      resources.ApplyResources(this.detailsLabel, "detailsLabel");
-      this.detailsLabel.Font = null;
-      this.detailsLabel.Name = "detailsLabel";
-      // 
-      // CompletionControl
-      // 
-      this.AccessibleDescription = null;
-      this.AccessibleName = null;
-      resources.ApplyResources(this, "$this");
-      this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.BackgroundImage = null;
-      this.Controls.Add(this.detailsTextBox);
-      this.Controls.Add(this.detailsLabel);
-      this.Font = null;
-      this.Name = "CompletionControl";
-      this.ResumeLayout(false);
-      this.PerformLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CompletionControl));
+            this.detailsTextBox = new System.Windows.Forms.TextBox();
+            this.detailsLabel = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // detailsTextBox
+            // 
+            resources.ApplyResources(this.detailsTextBox, "detailsTextBox");
+            this.detailsTextBox.BackColor = System.Drawing.Color.White;
+            this.detailsTextBox.Name = "detailsTextBox";
+            this.detailsTextBox.ReadOnly = true;
+            // 
+            // detailsLabel
+            // 
+            resources.ApplyResources(this.detailsLabel, "detailsLabel");
+            this.detailsLabel.Name = "detailsLabel";
+            // 
+            // CompletionControl
+            // 
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.detailsTextBox);
+            this.Controls.Add(this.detailsLabel);
+            this.Name = "CompletionControl";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
     }
 
