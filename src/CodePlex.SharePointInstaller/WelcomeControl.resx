@@ -131,7 +131,7 @@
     <value>472, 26</value>
   </data>
   <data name="messageLabel.Text" xml:space="preserve">
-    <value>This setup wizard will install and deploy {SolutionTitle} to your SharePoint 2007 farm.</value>
+    <value>This setup wizard will install and deploy {SolutionTitle} to your SharePoint 2010 farm.</value>
   </data>
   <data name="messageLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 20</value>
